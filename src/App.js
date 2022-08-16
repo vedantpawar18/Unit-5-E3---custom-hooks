@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./App.css";
 import { Image } from "./Components/Image";
 import { Input } from "./Components/Input";
@@ -24,9 +25,10 @@ function App() {
       <button onClick={() => decCount(4)}>Decrement 4</button>
 
       <br />
+      <br/>
       {/* You can pass the required props as mentioned in the questions to
       check if the components are working properly */}
-      <Image />
+      <Image src="https://bit.ly/dan-abramov" alt="Dan Abramov" borderRadius="100%" width="200px" height="300px" fit="cover"  />
       <br />
       <Input />
     </div>
