@@ -1,0 +1,42 @@
+.xs{
+    font-size: 24px;
+}
+.sm{
+    font-size: 32px;
+}
+.md{
+    font-size: 40px;
+}
+.lg{
+    font-size: 48px;
+}
+.xl{
+    font-size: 60px;
+}
+
+.outline:focus{
+    outline: 2px solid orange;   
+  }
+
+.filled {
+    background-color: rgb(237,242,247);
+}
+
+.filled:focus{
+    background-color: white;
+}
+
+.flushed{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.flushed:focus{
+    outline: 2px solid orange;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    
+}
